@@ -6,6 +6,8 @@ from models.reader import Reader
 from models.loan import Loan
 from datetime import datetime
 
+
+
 class DatabaseManager:
     def __init__(self, db_path="library.db") -> None:
         self.conn = sqlite3.connect(db_path)
