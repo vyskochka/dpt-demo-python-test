@@ -23,6 +23,7 @@ except ImportError as e:
     sys.exit(1)
 
 
+
 def main():
     """Главная функция приложения"""
     try:
